@@ -1,0 +1,334 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #F1F1F1;
+    font-family: sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+.line {
+    display: flex;
+    text-align: center;
+    margin: 50px;
+}
+.default{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    background-color: #c4c3c3;
+    border:0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px grey;
+}
+.default-hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    background-color: #929292;
+    border:0;
+    border-radius: 10px;
+    box-shadow: 4px 4px 15px grey;
+}
+.default:hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #000;
+    background-color: #929292;
+    border:0;
+    border-radius: 10px;
+}
+
+
+.outline{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D5AFE;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+.outline:hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D5AFE;
+    background-color: #8d9dfa;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+.outline-hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D5AFE;
+    background-color: #8d9dfa;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+
+
+.text{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D5AFE;
+}
+.text:hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D5AFE;
+    background-color: #8d9dfa;
+    border-radius: 10px;
+}
+.text-hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D5AFE;
+    background-color: #8d9dfa;
+    border-radius: 10px;
+}
+
+
+.disableShadow{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #3D5AFE;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+.disableShadow:hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #3D5AFE;
+    background-color: #8d9dfa;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+
+.disabled{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #929292;
+    border:1px solid #929292;
+    border-radius: 10px;
+    vertical-align: middle;
+}
+.text-disabled{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #929292;
+}
+
+
+.leftIcon{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #3D5AFE;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+.leftIcon span{
+    vertical-align: middle;
+}
+
+.rightIcon{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #3D5AFE;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+.rightIcon span{
+    vertical-align: middle;
+}
+
+
+.btn-size-sm{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #3D5AFE;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+.btn-size-md{
+    width:max-content;
+    margin: 30px;
+    padding: 17px 33px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #3D5AFE;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+.btn-size-lg{
+    width:max-content;
+    margin: 30px;
+    padding: 20px 35px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #3D5AFE;
+    border:1px solid #3D5AFE;
+    border-radius: 10px;
+}
+
+
+.btn-colorDefault{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #2c2c2c;
+    background-color:#bebebe;   
+    border:1px solid #bebebe;
+    border-radius: 10px;
+}
+.btn-colorDefault:hover{
+    color: #2c2c2c;
+    background-color:#757575;   
+    border:1px solid #757575;
+}
+.btn-colorDefaultHover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: #2c2c2c;
+    background-color:#757575;   
+    border:1px solid #757575;
+    border-radius: 10px;
+}
+.btn-color1{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #5a72fd;
+    border:1px solid #5a72fd;
+    border-radius: 10px;
+}
+.btn-color1:hover{
+    color: white;
+    background-color: #0e32ff;
+    border:1px solid #0e32ff;
+}
+.btn-color1Hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color: #0e32ff;
+    border:1px solid #0e32ff;
+    border-radius: 10px;
+}
+.btn-color2{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color:#455A64;   
+    border:1px solid #455A64;
+    border-radius: 10px;
+}
+.btn-color2:hover{
+    color: white;
+    background-color:#1C313A;   
+    border:1px solid #1C313A;
+}
+.btn-color2Hover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color:#1C313A;   
+    border:1px solid #1C313A;
+    border-radius: 10px;
+}
+.btn-colorDanger{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color:#D32F2F;   
+    border:1px solid #D32F2F;
+    border-radius: 10px;
+}
+.btn-colorDanger:hover{
+    color: white;
+    background-color:#9A0007;   
+    border:1px solid #9A0007;
+}
+.btn-colorDangerHover{
+    width:max-content;
+    margin: 30px;
+    padding: 15px 30px;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    background-color:#9A0007;   
+    border:1px solid #9A0007;
+    border-radius: 10px;
+}
+
